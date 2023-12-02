@@ -1,20 +1,20 @@
 /* OYE-001 */
 
-#define BOARD_PID		"OYE-001"
-#define BOARD_NAME		"OYE-001"
-#define BOARD_DESC		"OYE-001 Wireless Router"
-#define BOARD_VENDOR_NAME	"OYE"
-#define BOARD_VENDOR_URL	"http://www.oyewifi.com"
-#define BOARD_MODEL_URL		"http://www.oyewifi.com"
+#define BOARD_PID		"FWR200"
+#define BOARD_NAME		"FWR200"
+#define BOARD_DESC		"FWR200 Wireless Router"
+#define BOARD_VENDOR_NAME	"FAST"
+#define BOARD_VENDOR_URL	"https://www.fastcom.com.cn/"
+#define BOARD_MODEL_URL		"https://www.fastcom.com.cn/"
 #define BOARD_BOOT_TIME		20
 #define BOARD_FLASH_TIME	120
 #undef BOARD_GPIO_BTN_RESET
 #define BOARD_GPIO_BTN_WPS	1
 #undef  BOARD_GPIO_LED_ALL
-#define BOARD_GPIO_LED_WIFI	72
-#define BOARD_GPIO_LED_POWER	9
+#define BOARD_GPIO_LED_WIFI	
+#define BOARD_GPIO_LED_POWER	
 #undef BOARD_GPIO_LED_LAN
-#undef BOARD_GPIO_LED_WAN
+#undef BOARD_GPIO_LED_WAN    40
 #undef BOARD_GPIO_LED_USB
 #undef BOARD_GPIO_LED_ROUTER
 #undef BOARD_GPIO_PWR_USB

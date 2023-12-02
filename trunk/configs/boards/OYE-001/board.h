@@ -1,4 +1,4 @@
-/* OYE-001 */
+/* FWR200 */
 
 #define BOARD_PID		"FWR200"
 #define BOARD_NAME		"FWR200"

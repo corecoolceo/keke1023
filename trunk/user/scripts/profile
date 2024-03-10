@@ -11,6 +11,7 @@ if [ "$PS1" ] ; then
     echo "Version: $(nvram get firmver_sub)"; echo ""
 
 fi;
+
 [ -r /opt/etc/profile ] && . /opt/etc/profile
 
 alias df='df -Th'
@@ -18,5 +19,3 @@ alias ps='ps ww'
 alias ls='ls -hF --color=auto'
 alias ll='ls -AlhF --color=auto'
 alias htop='htop -t'
-alias clash="bash /etc/storage/clash/clash.sh"
-export clashdir="/etc/storage/clash"
